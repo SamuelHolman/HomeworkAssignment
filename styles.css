@@ -1,0 +1,26 @@
+* {
+    font: 15px Helvetica;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    width: 50%;
+}
+
+p {
+    width: 50%;
+    margin-left: 30px;
+}
+
+img {
+    width: 35%;
+}
+
+html {
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+button {
+    background-image: linear-gradient(to right, yellow, red);
+}

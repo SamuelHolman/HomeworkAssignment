@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <link rel ="stylesheet" href="styles.css">
+
+
+
+</head>
+<body>
+    
+
+    <h1>Samuel Holman</h1>
+    <p>
+        My name is Sam Holman. I am a CIS, Business Economics, and Finance major here at Pittsburg State University. 
+        One of my hobbies is creating projects using microcontrollers, programming, 3d printing, and soldering.
+        I am currently in the process of creating a pair of handheld consoles that will have online multiplayer between each other. 
+    </p>
+
+    <img src="images/Me.png" alt="Sam Holman">
+    <br>
+    <button id="Press">How are you today?</button>
+
+    <br>
+    <br>
+    <br>
+
+    
+
+    <marquee scrollamount="15" direction="down" width="250" height="20000" behavior="alternate" id="Horror">
+        <button id="hover">Do not hover over me</button>
+    </marquee>
+
+
+
+
+    <script>
+        document.getElementById("Horror").stop();
+        document.getElementById("Press").addEventListener("click", function AlertBox() {
+            alert("I'm good! I hope you have a good day!")
+        });
+
+        document.getElementById("hover").addEventListener("mouseover", function StartMouseOver (){
+            document.getElementById("Horror").start();
+        });
+    </script>
+</body>
+</html>
